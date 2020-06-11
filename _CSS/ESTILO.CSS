@@ -1,0 +1,51 @@
+html{
+    background-color: #e9f3fa;
+}
+
+#textInicio {
+    color: #e9f3fa;
+}
+
+body{
+    background-color: #e9f3fa;
+}
+
+#inicio{
+
+    width: 100%;
+    height: 100px;
+    background-color: #e9f3fa;
+}
+
+#curriculo{
+
+    width: 100%;
+    height: 100px;
+    background-color: #e9f3fa;
+}
+
+#contato{
+
+    width: 100%;
+    height: 100px;
+    background-color: #e9f3fa;
+}
+
+#tecFE{
+    background-color: #ffffff;
+}
+
+#tecBE{
+    background-color: #ffffff;
+}
+
+#met{
+    background-color: #ffffff;
+}
+
+#rodape{
+    width: 100%;
+    height: 50px;
+    background-color: #e9f3fa;
+}
+

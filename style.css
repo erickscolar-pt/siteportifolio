@@ -1,0 +1,338 @@
+body {
+    background: linear-gradient(45deg, #781D42, #A3423C, #DE834D, #F0D290,#FFBCD1 );
+    background-size: 300% 300%;
+    animation: colors ease-out 4s infinite;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+  /*background-image: url("imagens/IMG-CODE.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;*/
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 639px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.full-width #particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.full-width .logo-div{
+  display: flex;
+  float: right;
+  width: 100%;
+  margin: 10px;
+}
+
+.full-width .logo-div .logo{
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+}
+
+header nav {
+  background-color: rgba(94, 94, 94, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+header nav ul {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+header ul li a {
+    display: flex;
+    color: #fff;
+    padding: 51px 75px;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    height: 100%;
+}
+
+header ul li a:hover {
+  background-color: rgb(77, 77, 77);
+  color: #fff;
+  transition: 1s;
+}
+
+header .home {
+  color: #fff;
+  margin: 10px auto;
+  text-align: center;
+}
+
+header .home p {
+  color: #fff;
+  padding: 5px 0px;
+  font-size: 1.5rem;
+  text-align: center;
+  border-right: 1px solid #fff ; 
+  width: 14%;
+  margin: 0% 43%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+header .home h1 {
+  color: #fff;
+  padding: 20px 0px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header .home img {
+  height: 240px;
+  width: 240px;
+  border-radius: 115px;
+}
+
+/* ABAIXO MENU */
+
+.card{
+  margin-bottom: 10px;
+}
+
+#sobremim h1 {
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#sobremim {
+  display: flex;
+  align-items: center;
+  background: #6D6D6D;
+  /*margin: 0px 10%;*/
+  width: 100%;
+  padding: 5px;
+}
+
+#sobremim main{
+padding: 5px;
+}
+
+#sobremim p {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#portifolio {
+  width: 100%;
+}
+
+#portifolio h1 {
+  font-size: 2.25rem;
+  color: #fff;
+  padding: 35px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+#skills div h1 {
+  color: #fff;
+  font-size: 2.25rem;
+  padding: 35px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+#janela-skills {
+  text-align: center;
+  width: 100%;
+}
+
+#janela-skills p {
+  font-size: 1.125rem;
+  font-weight: bolder;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+#linha-um {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+
+#linha-dois {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+
+#direita {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+#esquerda {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+#direita h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#esquerda h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#contato h1 {
+  color: #fff;
+  font-size: 2.25rem;
+  padding: 35px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+#janela-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+
+#janela-contato div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px 0px;
+  text-align: center;
+  width: 100%;
+} 
+
+#janela-contato img {
+  height: 144px;
+  width: 144px;
+}
+
+#rodape {
+  background-color: #4E0050;
+  padding: 13px 0px;
+  width: 100%;
+}
+
+#rodape h1 {
+  font-size: 0.875rem;
+  color: #fff;
+  text-align: center;
+}
+
+.typing-animation{
+  animation: blinkCursor 500ms steps(40) infinite normal, typing 3s steps(40) 1s normal both;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 14%;
+  }
+}
+
+@keyframes blinkCursor{
+  from{
+    border-right-color: #fff;
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
+@keyframes colors{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .home p {
+      margin: 0% 23%;
+  }
+  header .home {
+      margin: 0;
+      padding-bottom: 10px;
+  }
+  .linha {
+      flex-direction: row !important;
+      height: auto !important;
+      justify-content: center;
+  }
+
+  .coluna {
+      flex-direction: column !important;
+      height: auto !important;
+      justify-content: space-around;
+  }
+
+  .full-width {
+      height: auto !important;
+      padding: 0px !important;
+      margin: 0px !important;
+      width: 100% !important;
+  }
+
+  .full-width .logo-div .logo{
+    display: none;
+  }
+
+  .full-width .logo-div{
+    display: none;
+  }
+  
+  .pad {
+    padding: 0px !important;
+  }
+  @keyframes typing{
+      0% {
+        width: 2px;
+    }
+    100% {
+        width: 52%;
+    }
+  }
+}
